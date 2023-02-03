@@ -1,0 +1,108 @@
+.box-navbar{
+    width: 100%;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 0 0 10px rgba(43, 37, 33, 0.598);
+}
+
+
+.navbar-li{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    justify-content: space-around;
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-logo .link-h2{
+    text-decoration: none;
+}
+.navbar-logo h2{
+    font-size: 55px;
+    font-weight: 100;
+    font-family: 'Aboreto', cursive;
+    color: black;
+}
+.navbar-logo span{
+    color: rgb(252, 142, 130);
+    text-decoration: none;
+}
+
+.navbar-user{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.navbar-user li{
+    list-style: none;
+    font-size: 25px;
+}
+
+
+
+/* cart estilo */
+
+.cart span{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+
+
+.cart i{
+    padding: 0px 30px;
+    color: black;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.cart i:hover{
+    color: rgb(249, 125, 111);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.419);
+    
+}
+
+/* user estilo */
+.user i{
+    padding: 0px 30px;
+    color: black;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.user i:hover{
+    color: rgb(249, 125, 111);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.419);
+    
+}
+
+/* heart estilo */
+.heart i{
+    font-size: 1.5rem;
+}
+
+.heart i{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.heart i:hover{
+    color: rgb(211, 25, 25);
+}

@@ -1,0 +1,129 @@
+/* contenedor de la card */
+.box-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+/* estilo de la card y orden de objetos */
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(43, 37, 33, 0.598);
+}
+
+/* contenedor de los textos de la card */
+.card-box-text{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+
+/* estilos de textos de la card */
+
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.card-text_span{
+    font-weight: 800;
+    color: rgb(136, 137, 137);
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.card-text_h2{
+    font-size: 20px;
+    font-family: 'Aboreto', cursive;
+}
+
+.card-text_price{
+    color: rgb(252, 142, 130);
+    font-family: 'Aboreto', cursive;
+}
+
+
+/* icon favoritos */
+.box-heart{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    padding-right: 15px;
+}
+
+.box-heart i{
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.719);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.box-heart i:hover{
+    color: rgb(211, 25, 25);
+}
+
+/* button */
+.box-card-btns{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* estilos button */
+.btn-card-buy{
+    border: none;
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Aboreto', cursive;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.421);
+    transition: all 300ms;
+}
+.btn-card-buy:hover{
+    background-color: rgb(252, 142, 130);
+    color: white;
+}
+
+/* estilo del btn see */
+.btn-card-see{
+    border: none;
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Aboreto', cursive;
+    transition: all 300ms;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.347);
+}
+
+.btn-card-see:hover, .btn-card-cart i:hover{
+    background-color: rgb(252, 142, 130);
+    color: white;
+}
+
+
+/* imagen */
+
+.card-box-img{
+    width: 100%
+}
+
+.card img{
+    width: 400px;
+    height: 400px;
+}

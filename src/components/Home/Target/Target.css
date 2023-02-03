@@ -1,0 +1,104 @@
+/* caja contenedor */
+.box-target{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px;
+}
+
+/* contenido de la tarjeta */
+.target-content{
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    padding: 5px 30px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(109, 109, 109, 0.598);
+    text-shadow: 1px 1px 5px #000000;
+    transition: all 300ms;
+    border-radius: 10px;
+}
+
+/* textos span de las tarjetas */
+.target-content span{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px #f44a4a,  0px 0px 2px #f85d5d;
+}
+
+/* texto de tarjeta devolucion */
+.target-content-text_dev{
+    font-size: 20px;
+}
+
+/* textos de tarjeta de regalo */
+.target-content-text_gift{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* textos de descuentos */
+.target-content-text_extra{
+    font-size: 25px;
+}
+
+.target-content-text_extra span{
+    font-size: 10px;
+}
+
+/* textos de compartir */
+.target-content-text_send{
+    font-size: 15px;
+}
+/* sub-contenedor de los textos compartir */
+.target-content-share{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 25px 0px; 
+}
+
+.target-content-text_share{
+    font-size: 20px;
+}
+
+/* tamaño de los iconos en general */
+.target-content i{
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* sub-contenedor de los textos publicidad */
+.target-content-text_advertising{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0px; 
+}
+
+.target-content-text_advertising span{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+    text-shadow: 0px 0px 1px #fd7d7d,  0px 0px 5px #f85d5d;
+}
+
+/* efecto hover general de las cajas */
+
+.target-content:hover{
+    background-color: rgb(251, 152, 152);
+    color: white;
+    text-shadow: 0px 0px 1px #222121,  0px 0px 2px #e0e0e0;
+}

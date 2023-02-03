@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "marca": "Milicent´s Century",
+        "nombre": "Buzo Milicent´s",
+        "img": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/214/214/products/saddie-quemado1-8117ee915dcabafb6816642902310713-640-0.webp",
+        "precio": 100,
+        "descripcion" : "descripcion del buzo",
+        "stock": 5
+    }
+]

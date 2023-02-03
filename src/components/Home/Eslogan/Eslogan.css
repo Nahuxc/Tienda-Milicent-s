@@ -1,0 +1,36 @@
+.box-eslogan{
+    width: 100%;
+    background-color: #222;
+}
+
+.eslogan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 25px;
+}
+
+.eslogan li{
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.eslogan h2{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+.eslogan span{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
