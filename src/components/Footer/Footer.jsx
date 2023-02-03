@@ -23,10 +23,10 @@ const Footer = () => {
                 </div>
                 <div className='footer-text-box'>
                     <h2>ENCUENTRANOS EN:</h2>
-                    <p><i className="fa-brands fa-instagram"></i> Instagram</p>
-                    <p><i className="fa-brands fa-facebook"></i> Facebook</p>
-                    <p><i className="fa-brands fa-twitter"></i> Twitter</p>
-                    <p><i className="fa-brands fa-pinterest"></i> Pitenrest</p>
+                    <p className='instagram'><i className="fa-brands fa-instagram"></i> Instagram</p>
+                    <p className='facebook'><i className="fa-brands fa-facebook"></i> Facebook</p>
+                    <p className='twitter'><i className="fa-brands fa-twitter"></i> Twitter</p>
+                    <p className='pinterest'><i className="fa-brands fa-pinterest"></i> Pinterest</p>
                 </div>
             </div>
             <div className='content-subfooter'>
@@ -38,10 +38,10 @@ const Footer = () => {
                         <div className='img-logo'>
                             <img className='img-logo' src={logoNotback} alt="logo-milicent´s" />
                         </div>
-                        <div>
-                            <p>© MILICENT´S Desing: 
-                                Nahuel Alexander Coronel
-                                Julieta Agostina Arza </p>
+                        <div className='box-authors-text'>
+                        <p>&copy;<b>MILICENT´S Desing:</b></p>
+                        <p> Nahuel Alexander Coronel </p>
+                        <p> Julieta Agostina Arza </p>
                         </div>
                     </div>
                 </div>
