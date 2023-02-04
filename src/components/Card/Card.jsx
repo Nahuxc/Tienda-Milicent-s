@@ -1,18 +1,18 @@
 import React from 'react'
 import "./Card.css"
 
-const Card = () => {
+const Card = ({nombre, marca, img, precio, descripcion, stock, categoria, tipo }) => {
   return (
     <div className='box-card'>
       <div className='card'>
         <div className='card-box-img'>
-          <img src="http://d3ugyf2ht6aenh.cloudfront.net/stores/001/214/214/products/saddie-quemado1-8117ee915dcabafb6816642902310713-640-0.webp" alt="" />
+          <img className='img' src={img} alt="" />
         </div>
         <div className='card-box-text'>
           <div className='card-text'>
-            <span className='card-text_span'>Milicent´s Century</span>
-            <h2 className='card-text_h2'>BUZO MILICENT´S</h2>
-            <p className='card-text_price'>$100 USD</p>
+            <span className='card-text_span'>{marca} </span>
+            <h2 className='card-text_h2'>{nombre}</h2>
+            <p className='card-text_price'>ARS$ {precio} </p>
           </div>
           <div className='box-heart'>
             <i className="fa-solid fa-heart"></i>
