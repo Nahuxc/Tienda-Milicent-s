@@ -4,8 +4,8 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import ProductsContainer from './components/ProductsContainer/ProductsContext';
 import CartContent from './components/CartContent/CartContent';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
