@@ -1,0 +1,74 @@
+.btn-submenu{
+    background: rgba(191, 191, 191, 0.763);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0;
+    transition: all 500ms;
+    border: none;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.719);
+}
+
+.btn-submenu:hover{
+    background: rgba(252, 146, 146, 0.763);
+    color: rgb(0, 0, 0);
+}
+
+
+.submenu{
+    background-color: rgb(248, 213, 213);
+    display: flex;
+    flex-direction: column;
+    padding: 65px 0px;
+    position: fixed;
+    top: 0px;
+    right: -240px;
+    height: 100%;
+    width: 240px;
+    z-index: 5;
+    box-shadow: 0 0 10px rgba(117, 93, 79, 0.3);
+    transition: all 500ms;
+}
+
+.active{
+    right: 0;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.move-btn{
+    background: rgba(252, 146, 146, 0.763);
+    color: rgb(255, 255, 255);
+    margin-right: 240px;
+    transition: all 500ms;
+}
+
+
+.link-submenu{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.list-submenu{
+    background-color: #222;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin: 20px 0px 0px 20px;
+    transition: all 500ms;
+}
+
+
+.list-submenu:hover{
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 20px 20px 0px 0px;
+    border-top-right-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(117, 93, 79, 0.3);
+}

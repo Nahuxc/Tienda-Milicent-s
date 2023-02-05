@@ -2,11 +2,11 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 /* llamamos a la api */
 import { getProducts } from '../../database/api'
-import "./ProductsContext.css"
+import "./ProductsContainer.css"
 import Card from '../Card/Card'
 
 
-const ProductsContext = () => {
+const ProductsContainer = () => {
 
 
   const [data, setData] = useState([])
@@ -41,4 +41,4 @@ const ProductsContext = () => {
   )
 }
 
-export default ProductsContext
+export default ProductsContainer;

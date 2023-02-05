@@ -1,8 +1,9 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import ProductsContext from './components/ProductsContext/ProductsContext';
-import Home from './components/Home/Home';
 import Eslogan from './components/Home/Eslogan/Eslogan';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+import ProductsContainer from './components/ProductsContainer/ProductsContext';
+import CartContent from './components/CartContent/CartContent';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 
@@ -14,7 +15,8 @@ function App() {
           <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/productos' element={<ProductsContext/>} />
+          <Route path='/productos' element={<ProductsContainer/>} />
+          <Route path='/carrito' element={<CartContent/>} />
         </Routes>
           <Footer/>
       </BrowserRouter>

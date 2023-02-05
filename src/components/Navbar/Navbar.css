@@ -50,7 +50,7 @@
     font-size: 25px;
 }
 
-.navbar-user li{
+.navbar-user .user{
     list-style: none;
     font-size: 25px;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Cart from "../Cart/Cart"
+import Submenu from './Submenu/Submenu'
 import { Link } from 'react-router-dom'
 import "./Navbar.css"
 
@@ -17,7 +18,7 @@ const Navbar = () => {
         </div>
         <div className='navbar-user'>
           <li className='user'><i className="fa-solid fa-user"></i></li>
-          <i className="fa-solid fa-bars"></i>
+          <Submenu/>
         </div>
       </div>
     </div>
