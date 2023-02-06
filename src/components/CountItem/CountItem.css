@@ -1,0 +1,49 @@
+.counter{
+    background-color: rgb(251, 251, 251);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 200px;
+    margin: 10px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.count{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+
+.btn-aument{
+    background-color: #ff9393;
+    border: none;
+    width: 30%;
+    font-size: 15px;
+    border-radius: 10px 0px 0px 10px;
+    color: #ffffff;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.btn-decrement{
+    background-color: #ff9393;
+    border: none;
+    width: 30%;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+    cursor: pointer;
+    transition: all 500ms;
+}

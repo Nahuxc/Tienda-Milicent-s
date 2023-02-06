@@ -47,19 +47,20 @@
 }
 
 
-.link-submenu{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-}
-
 .list-submenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: #e8323a;
     padding: 10px;
+    text-indent: 10px;
+    text-decoration: none;
+    list-style: none;
     font-size: 20px;
     color: white;
     margin: 20px 0px 0px 20px;
-    transition: all 500ms;
+    transition: all 300ms;
 }
 
 

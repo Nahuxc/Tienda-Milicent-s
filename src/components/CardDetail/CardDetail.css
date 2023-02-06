@@ -1,0 +1,301 @@
+.card-detail{
+    padding: 20px 30px;
+}
+
+.back-icon{
+    display: flex;
+    justify-content: center;
+    width: 4%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(43, 37, 33, 0.598);
+    text-decoration: none;
+    color: black;
+    transition: 300ms;
+}
+
+.back-icon:hover{
+    background-color: rgb(255, 86, 86);
+    color: white;
+}
+
+.box-card-detail{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+}
+
+
+.box-card-texts{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.box-card-detail-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img-first{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(43, 37, 33, 0.598);
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.box-img-first img{
+    width: 50%;
+}
+
+.box-change-img{
+    display: flex;
+    flex-direction: row;
+}
+
+.boxs-img{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    margin: 0px 10px;
+    border-radius: 20px;
+    width: 10%;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.boxs-img img{
+    width: 100%;
+}
+
+.boxs-img:hover{
+    border: rgb(252, 142, 130) solid;
+}
+
+
+/* textos de titulo del producto */
+
+.texts-prod-init span{
+    color: rgb(136, 137, 137);
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.texts-prod-init h2{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+/* seccion de textos de los precios, cuotas y descuentos */
+
+
+.texts-prod-price_precio{
+    color: rgb(136, 137, 137);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: line-through;
+}
+
+.texts-prod-price_descuento{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+.texts-prod-price_descuento-span{
+    color: rgb(255, 86, 86);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+.texts-prod-price_cuotas{
+    color: rgb(255, 86, 86);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 5px rgb(202, 200, 200);
+}
+
+.texts-prod-price_metodos{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 20px rgb(202, 200, 200);
+    transition: 200ms;
+}
+
+.texts-prod-price_metodos:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(203, 22, 22), 0 0 5px rgb(0, 0, 0);
+}
+
+/* seccion de textos de los tipos de envios y sucursales */
+
+.texts-prod-send li{
+    list-style: none;
+    color: rgb(255, 86, 86);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.texts-prod-send span{
+    color: rgb(255, 86, 86);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 5px rgb(202, 200, 200);
+}
+
+.texts-prod-send_link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 20px rgb(202, 200, 200);
+    transition: 200ms;
+}
+
+.texts-prod-send_link:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(203, 22, 22), 0 0 5px rgb(0, 0, 0);
+}
+
+/* sucursales texts */
+
+.texts-prod-sucursales li{
+    list-style: none;
+    color: rgb(255, 86, 86);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.texts-prod-sucursales span{
+    color: rgb(255, 86, 86);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 5px rgb(202, 200, 200);
+}
+
+.texts-prod-sucursales_link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 20px rgb(202, 200, 200);
+    transition: 200ms;
+}
+
+.texts-prod-sucursales_link:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(203, 22, 22), 0 0 5px rgb(0, 0, 0);
+}
+
+/* seccion de cantidades y el contador de productos */
+
+.box-card-prod-cantidades{
+    color: rgb(134, 132, 132);
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 5px rgb(198, 198, 198);
+}
+
+/* seccion de colores del producto */
+
+.box-card-prod-color p{
+    color: rgb(134, 132, 132);
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 5px rgb(198, 198, 198);
+}
+
+.btn-color{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px 0px ;
+    border-radius: 0px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.421);
+    transition: all 300ms;
+}
+
+.btn-color:hover{
+    background-color: rgb(252, 142, 130);
+    color: white;
+}
+
+/* seccion del talle del producto */
+
+.box-card-prod-talle{
+    display: flex;
+    align-items: center;
+    color: rgb(134, 132, 132);
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 5px rgb(198, 198, 198);
+}
+
+.btn-talle{
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.421);
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    padding: 5px 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+.btn-talle:hover{
+    background-color: rgb(252, 142, 130);
+    color: white;
+}
+
+/* seccion categoria */
+
+.box-card-prod-categoria{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+/* seccion stock */
+
+.box-card-prod-stock{
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+.stock-disponible{
+    color: rgb(83, 182, 83);
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+.stock-nodisponible{
+    color: rgb(210, 56, 56);
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+
+

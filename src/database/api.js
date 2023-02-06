@@ -6,9 +6,12 @@ const dataBase = [
         img: "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/214/214/products/saddie-quemado1-8117ee915dcabafb6816642902310713-640-0.webp",
         precio: 10250,
         descripcion : "descripcion del buzo",
-        stock: 16,
+        stock: 0,
         categoria: "Urbano",
-        tipo: "Buzo"
+        tipo: "Buzo",
+        descuento: 9225,
+        talle: "M",
+        color: "Blanco/Negro"
     },
     {
         id: 2,
@@ -19,18 +22,24 @@ const dataBase = [
         descripcion : "descripcion del buzo",
         stock: 15,
         categoria: "Urbano",
-        tipo: "Buzo"
+        tipo: "Buzo",
+        descuento: 6300,
+        talle: "S",
+        color: "Negro"
     },
     {
         id: 3,
         marca: "Milicent´s Century",
-        nombre: "Buzo Milicent´s",
+        nombre: "Bulls NBA Milicent´s",
         img: "https://www.pimps.cl/wp-content/uploads/2022/05/NBAHD62201-BLK-2.png",
         precio: 14000,
         descripcion : "descripcion del buzo",
         stock: 26,
         categoria: "Sport",
-        tipo: "Buzo"
+        tipo: "Buzo",
+        descuento: 11900,
+        talle: "M",
+        color: "Negro/unico"
     },
     {
         id: 4,
@@ -41,7 +50,10 @@ const dataBase = [
         descripcion : "descripcion del buzo",
         stock: 21,
         categoria: "Sport",
-        tipo: "Buzo"
+        tipo: "Buzo",
+        descuento: 4950,
+        talle: "S",
+        color: "Rosa/azul"
     },
     {
         id: 5,
@@ -107,7 +119,10 @@ const dataBase = [
         descripcion : "descripcion del buzo",
         stock: 34,
         categoria: "Urbano",
-        tipo: "Pantalon"
+        tipo: "Pantalon",
+        descuento: 6600,
+        talle: "38",
+        color: "blanco"
     },
     {
         id: 12,
@@ -118,18 +133,24 @@ const dataBase = [
         descripcion : "descripcion del buzo",
         stock: 27,
         categoria: "Urbano",
-        tipo: "Pantalon"
+        tipo: "Pantalon",
+        descuento: 11340,
+        talle: "38",
+        color: "Negro"
     },
     {
         id: 13,
         marca: "Milicent´s Century",
         nombre: "Short Urban Milicent´s",
         img: "https://sc01.alicdn.com/kf/H40b49574db7145f880884a94bc2b20024/201634594/H40b49574db7145f880884a94bc2b20024.png_.webp",
-        precio: 5500,
+        precio: 7800,
         descripcion : "descripcion del buzo",
         stock: 17,
         categoria: "Urbano",
-        tipo: "Short"
+        tipo: "Short",
+        descuento: 7020,
+        talle: "37",
+        color: "Reflex/blanco"
     }
   ]
 
@@ -149,3 +170,4 @@ export const getProductsId = (id) => {
         }, 500)
     })
 }
+

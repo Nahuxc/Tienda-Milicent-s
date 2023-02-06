@@ -28,11 +28,11 @@ const Submenu = () => {
         </button>
         <div className='submenu'>
             <div className='submenu-content'>
-                <Link className='link-submenu' to={"/"}><li className='list-submenu'><i className="fa-solid fa-house"></i> Inicio</li></Link> 
-                <Link className='link-submenu' to={"/productos"}><li className='list-submenu'><i className="fa-solid fa-shirt"></i> Productos</li></Link> 
-                <Link className='link-submenu' to={"#"}><li className='list-submenu'><i className="fa-solid fa-users"></i> Sobre Nosotros</li></Link> 
-                <Link className='link-submenu' to={"#"}><li className='list-submenu'><i className="fa-solid fa-phone"></i> Comunicate</li></Link>
-                <Link className='link-submenu' to={"#"}><li className='list-submenu'><i className="fa-solid fa-heart"></i> Ropa Favorita</li></Link>
+                <Link className='list-submenu' to={"/"}><i className="fa-solid fa-house"></i> Inicio</Link> 
+                <Link className='list-submenu' to={"/productos"}><i className="fa-solid fa-shirt"></i> Productos</Link> 
+                <Link className='list-submenu' to={"#"}> <i className="fa-solid fa-users"></i> Sobre Nosotros</Link> 
+                <Link className='list-submenu' to={"#"}> <i className="fa-solid fa-phone"></i> Comunicate</Link>
+                <Link className='list-submenu' to={"#"}> <i className="fa-solid fa-heart"></i> Ropa Favorita</Link>
             </div>
         </div>
     </div>
